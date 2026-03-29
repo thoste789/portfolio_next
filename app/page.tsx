@@ -37,24 +37,24 @@ const services = [
 
 const faqs = [
   {
-    q: "What is your design process?",
-    a: "I follow a structured yet flexible approach: Discovery & Research, Strategy & IA, Visual Design, Prototyping & Testing, and Handoff. Each phase involves close collaboration with stakeholders to ensure alignment.",
+    q: "How do you build and scale design teams?",
+    a: "I hire for craftsmanship and curiosity, then build with clear rituals: regular design critiques, documented principles, and shared quality standards. At Vydia I scaled the design function from a solo IC role into a cross-functional team embedded with product and engineering — establishing the culture and process that survived two acquisitions.",
   },
   {
-    q: "What are your typical project timelines?",
-    a: "Project timelines vary depending on scope and complexity. A focused UX audit might take 2–3 weeks, while a full product redesign typically spans 2–4 months.",
+    q: "How do you measure design impact?",
+    a: "I tie design outcomes directly to business metrics — not just task completion rates. At Vydia we tracked upload time reduction (62%), delivery success rates (31% increase), and development handoff efficiency (65% reduction). Impact without data is just opinion.",
   },
   {
-    q: "Do you work with remote teams?",
-    a: "Yes — the majority of my work is remote-first. I have established workflows for async collaboration, regular syncs, and design reviews that work across time zones.",
+    q: "How do you partner with product and engineering?",
+    a: "I establish shared rituals: embedded sprint participation, joint discovery sessions, and a shared definition of done that includes design quality gates. The best product outcomes happen when design isn't a handoff — it's a continuous conversation. I've led cross-functional teams across multiple platforms serving millions of users.",
   },
   {
-    q: "What tools do you use?",
-    a: "Figma for design and prototyping, Notion for documentation, Linear for project tracking, and a mix of front-end tools (Next.js, Tailwind) for implementation work.",
+    q: "What's your approach to design systems governance?",
+    a: "A design system is a product, not a deliverable. I establish ownership models, contribution frameworks, and regular audits. At Vydia I architected a 120+ component library with documented tokens and governance that reduced development handoff time by 65% and became a core part of the acquisition value.",
   },
   {
-    q: "How do you handle revisions?",
-    a: "Revisions are built into every phase. I work iteratively with structured feedback rounds to ensure we're aligned at each milestone before moving forward.",
+    q: "How do you advocate for UX at the executive level?",
+    a: "I speak in outcomes, not deliverables. Instead of 'we need more research time,' I frame it as 'here's the revenue risk of shipping without validation.' I've presented design strategy to boards, participated in acquisition due diligence, and partnered directly with C-suite on product vision at both Vydia and Yashi.",
   },
 ];
 
@@ -65,13 +65,12 @@ export default function Home() {
       <section className="pt-20">
         <div className="px-6 md:px-20 pt-30 pb-30">
           <h1 className="font-mono text-6xl md:text-8xl font-extralight leading-[0.95] text-[#1a1c1c] mb-8 tracking-tight">
-            Lead
+            Head 
             <br />
-            UI/UX Designer
+            of UI/UX Design
           </h1>
           <p className="text-base text-[#666666] leading-relaxed mb-10 max-w-2xl">
-            Lead UI/UX Designer crafting architectural interfaces for the next
-            generation of digital products.
+            Design leader building product teams, design systems, and digital products that drive measurable business outcomes — two successful exits.
           </p>
           <div className="flex items-center gap-4">
             <Link
@@ -195,7 +194,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="text-sm text-[#666666] leading-relaxed w-full pt-6 md:pt-0 md:max-w-xs text-left md:text-right">
-            Everything you need to know about working together.
+            How I think about teams, systems, and design leadership.
           </p>
         </div>
         <div className="w-full h-px bg-[#e0e0e0]" />

@@ -21,9 +21,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Tim Hoste — Lead UI/UX Designer",
+  title: "Tim Hoste — Head of UI/UX Design",
   description:
-    "Lead UI/UX Designer crafting architectural interfaces for the next generation of digital products.",
+    "Design leader with 15+ years building product teams, design systems, and digital products that drive measurable business outcomes. Two successful exits.",
   icons: {
     icon: [
       { url: "/fav/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -68,6 +68,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );

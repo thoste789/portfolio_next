@@ -59,10 +59,13 @@ export default function Contact() {
               LinkedIn ↗
             </a>
             <a
-              href="/about"
+              href="/resume/TimothyHoste-Resume-2026.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
               className="text-sm font-semibold text-[#b02f00] hover:opacity-70 transition-opacity"
             >
-              Resume ↗
+              Resume ↓
             </a>
           </div>
         </div>

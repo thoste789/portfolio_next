@@ -81,7 +81,7 @@ export default function About() {
   return (
     <main className="bg-[#f9f9f9] pt-20">
       {/* Page Header */}
-      <section className="pt-20 px-20 py-20">
+      <section className="pt-20 px-6 md:px-20 py-20">
         <p className="text-[10px] text-[#666666] tracking-[0.3em] uppercase mb-6">
           ABOUT ME
         </p>
@@ -100,7 +100,7 @@ export default function About() {
       </section>
 
       {/* Resume & Skills */}
-      <section className="px-20 pb-28 grid grid-cols-2 gap-20 items-start">
+      <section className="px-6 md:px-20 pb-28 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
 
         {/* Left — Experience */}
         <div>
@@ -110,12 +110,12 @@ export default function About() {
           <div className="flex flex-col divide-y divide-[#e5e5e5]">
             {experience.map((job) => (
               <div key={job.company} className="py-8 first:pt-0">
-                <div className="flex items-start justify-between mb-1">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-1 gap-1">
                   <div>
                     <p className="text-sm font-semibold text-[#1a1c1c] tracking-tight">{job.role}</p>
                     <p className="text-sm text-[#666666]">{job.company} &mdash; {job.location}</p>
                   </div>
-                  <span className="text-[10px] text-[#999999] tracking-[0.15em] uppercase shrink-0 ml-6 mt-0.5">
+                  <span className="text-[10px] text-[#999999] tracking-[0.15em] uppercase shrink-0 sm:ml-6 sm:mt-0.5">
                     {job.period}
                   </span>
                 </div>

@@ -39,7 +39,7 @@ export default function Footer() {
               SOCIAL
             </span>
             <a href="https://www.linkedin.com/in/timothy-hoste-069651104/" target="_blank" rel="noopener noreferrer" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">LinkedIn</a>
-            <a href="/about" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">Resume</a>
+            <a href="/resume/TimothyHoste-Resume-2026.pdf" target="_blank" rel="noopener noreferrer" download className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">Resume ↓</a>
           </div>
         </div>
       </div>

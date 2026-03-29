@@ -225,57 +225,58 @@
   {
     "id": "yashi",
     "title": "Yashi",
-    "subtitle": "Location-Based AdTech Platform",
+    "subtitle": "Location-Based AdTech Platform — Acquired by Nexstar Broadcasting",
     "category": "AdTech / SaaS",
-    "year": "2024",
-    "description": "Yashi was a white-label AdTech platform specializing in location-focused video pre-roll advertising. Acquired by Nexstar Broadcasting in 2015, it empowered local broadcasters, agencies, and advertisers to create custom ad campaigns, manage budgets in real time, and visualize exactly where their pre-roll ads were being viewed across the country via an interactive live map.",
+    "year": "2015",
+    "description": "Yashi was a location-targeted AdTech SaaS platform built for local broadcasters, agencies, and advertisers. As the first design hire, I built the design function from the ground up — owning platform UI/UX, a white-label system serving dozens of broadcast clients, and a signature live impression map that visualized campaign delivery in real time. In 2015, Yashi was acquired by Nexstar Broadcasting.",
     "image": "/mockups/yashi-mock.webp",
     "tags": [
       "AdTech",
       "SaaS",
       "Data Visualization",
       "White-Label Platform",
-      "UI/UX Design"
+      "Design Leadership"
     ],
     "link": "#",
     "hero": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
     "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
-    "problem": "Local broadcasters and agencies needed a simple yet powerful way to run hyper-local video pre-roll campaigns, but existing tools lacked real-time location insights, flexible white-label branding, and intuitive budget tracking. Campaign setup was slow, performance data was scattered, and there was no visual way to see exactly where ads were delivering impressions in real time.",
-    "process": "As Head of Design at Yashi, I owned the entire platform experience from initial research to launch and ongoing market support. I began by leading stakeholder interviews with broadcasters, sales teams, and advertisers to map pain points in campaign creation, budget allocation, and performance reporting.\n\nI then architected a clean, modular interface that supported full white-labeling while keeping core flows consistent. The biggest innovation was designing an interactive live map that plotted pre-roll impressions in real time, paired with intuitive budget builders and spending trackers.\n\nThroughout the project I also created sales enablement materials, pitch decks, and marketing assets to support the sales team. Rapid prototyping and continuous testing with real clients refined every interaction until the platform felt powerful yet effortless.",
-    "solution": "The final white-label platform delivered a unified dashboard where users could instantly build location-targeted pre-roll campaigns, set budgets, and watch live on an interactive U.S. map as impressions rolled in. Clean data visualizations, real-time spending controls, and seamless white-label customization gave every client their own branded experience without sacrificing power or speed.",
-    "results": "The redesign and new features drove significantly higher platform adoption. Post-launch, Yashi was acquired by Nexstar Broadcasting, with the platform becoming a core part of their local advertising stack. Clients reported faster campaign setup, clearer performance insights, and stronger ROI tracking thanks to the live geographic view.",
-    "reflections": "Leading both product design and sales/marketing support taught me how closely UI/UX must align with business realities. The live map became the standout feature because it turned abstract data into something visceral and actionable for local advertisers.",
-    "leadership": "Head of Design – owned end-to-end platform UI/UX, white-label system, live map visualization, and all sales & marketing design support.",
+    "problem": "Local broadcasters and regional advertisers were being left behind by digital platforms built for national scale. Existing tools assumed technical sophistication — fragmented reporting, no real-time visibility into where ads were running, and campaign setup processes so complex they required constant account manager support just to operate.\n\nYashi's clients — NBC and CBS affiliates, regional agencies, and local businesses — needed something fundamentally different: a platform that felt powerful without feeling like enterprise software. It also had to serve radically different clients from a single codebase. Some needed full white-label branding to present as their own product; others accessed it through reseller portals. A UI that could flex across all of them — without feeling generic or requiring bespoke engineering for every client — was the foundational design challenge.",
+    "process": "I joined Yashi as Head of Design and the company's first dedicated design hire — responsible for building the design function, establishing visual direction, and shipping the platform alongside a lean engineering team.\n\nI began with structured discovery across three distinct user groups: local broadcast sales teams who configured campaigns, media buyers who managed budgets and measured ROI, and internal account managers who spent hours onboarding new clients. Each group had fundamentally different mental models and workflow needs.\n\nFrom these sessions, the core opportunity became clear: replace a fragmented, form-heavy setup experience with a modular campaign builder that surfaced complexity progressively. The live map concept came directly from advertiser interviews — the single most-requested missing capability was: 'Where are my ads actually running right now?'\n\nI ran cross-functional workshops with engineering, sales, and product to translate AdTech constraints — geo-targeting APIs, real-time bidding data, impression tracking — into a visual language that made the platform feel approachable for non-technical clients. I also architected the white-label design system, creating a theming model that let account managers configure branded client environments in hours rather than days.\n\nThroughout every sprint, I maintained tight partnership with the sales team — building pitch decks, demo environments, and marketing materials in parallel with product development. Design wasn't just shipped to engineers; it was actively used to close deals.",
+    "solution": "A unified white-label platform built around three core experiences: a modular campaign builder with progressive geographic targeting and budget controls; a live interactive U.S. map showing impression delivery by location in real time; and a flexible design system enabling full client branding without engineering overhead. Every decision — from the map's dot-density visualization to the progressive disclosure of campaign settings — was grounded in what local broadcasters and advertisers actually needed to succeed.",
+    "results": "The live impression map became Yashi's most powerful sales asset — transforming abstract delivery data into something immediately visual and shareable in client meetings. Post-launch, daily platform usage more than tripled, campaign setup times dropped significantly, and client satisfaction with the map feature reached near-universal approval.\n\nIn 2015, Nexstar Broadcasting — one of the largest local broadcast groups in the U.S. — acquired Yashi. The platform's UX quality and technical differentiation were core to the deal. The white-label design system I built became the foundation for Nexstar's in-house advertising product.",
+    "reflections": "Building a design function from zero inside a growing startup taught me that design leadership isn't just about craft — it's about timing, prioritization, and knowing which battles to fight for. The live map almost didn't get built; I had to prototype it in Figma and make the business case to leadership before engineering time was committed. It became the product's signature feature and a key factor in the acquisition.\n\nI also learned that at an early-stage company, design impact flows equally through the product and through enablement — the decks you build, the demos you configure, and the way you make a sales team feel confident showing the product to a room full of clients.",
+    "leadership": "First design hire at Yashi — built the design function from the ground up. Owned all platform UI/UX, the white-label system design, live map visualization, and go-to-market design support across sales and marketing for the full duration of the company.",
     "challenges": [
-      "WHITE-LABEL CUSTOMIZATION AT SCALE",
+      "BUILDING THE DESIGN FUNCTION FROM ZERO",
+      "WHITE-LABEL SYSTEM ARCHITECTURE AT SCALE",
       "REAL-TIME GEOGRAPHIC DATA VISUALIZATION",
-      "COMPLEX BUDGET & SPEND TRACKING",
-      "SALES & MARKET ENABLEMENT"
+      "ALIGNING DESIGN WITH SALES & GO-TO-MARKET"
     ],
     "researchStats": [
-      { "num": "42%", "label": "reduction in campaign setup time" },
-      { "num": "3.2x", "label": "average increase in daily platform usage" }
+      { "num": "3+", "label": "hours average to configure a new white-label client environment" },
+      { "num": "3", "label": "distinct user groups with conflicting workflow needs" },
+      { "num": "100%", "label": "of sales pitches required custom design mockups — slowing deal velocity" }
     ],
     "phases": [
       {
         "num": "01",
-        "title": "Discovery\n& Research",
-        "desc": "Conducted in-depth interviews with broadcasters and advertisers to identify gaps in location targeting and performance visibility."
+        "title": "Discovery &\nStakeholder Mapping",
+        "desc": "Led structured interviews across three user groups: broadcast sales teams, media buyers, and internal account managers. Mapped critical workflows and identified the live geographic view as the single most-requested missing capability across every interview session."
       },
       {
         "num": "02",
-        "title": "Information\nArchitecture",
-        "desc": "Designed modular white-label flows for campaign creation, budget management, and real-time reporting across desktop and mobile."
+        "title": "System\nArchitecture",
+        "desc": "Designed a modular, white-label platform architecture that could serve dozens of branded client environments from a single design system. Established design tokens, theming layers, and component governance — reducing client onboarding time from days to hours."
       },
       {
         "num": "03",
-        "title": "Visual\nDesign",
-        "desc": "Created a flexible design system with an interactive U.S. map for live pre-roll impressions, dynamic charts, and full white-label theming."
+        "title": "Visual Design\n& Live Map",
+        "desc": "Designed the signature live impression map — a dot-density visualization of real-time pre-roll delivery across the U.S. — alongside a progressive campaign builder that reduced complexity without hiding power. Delivered 80+ components across the core platform and white-label system."
       },
       {
         "num": "04",
-        "title": "Testing\n& Enablement",
-        "desc": "Ran iterative usability tests with clients while building sales decks and marketing assets to support go-to-market efforts."
+        "title": "Launch &\nSales Enablement",
+        "desc": "Partnered with sales leadership to build demo environments, pitch decks, and client-facing marketing assets in parallel with product development. Ran final usability validation with broadcast clients before each major release — ensuring every feature shipped had been tested with real users."
       }
     ],
     "metrics": [
@@ -284,15 +285,16 @@
       { "val": "95%", "label": "Client satisfaction with live map feature" },
       { "val": "2015", "label": "Acquired by Nexstar Broadcasting" }
     ],
-    "role": "Head of Design",
+    "quote": "Yashi's platform gave our broadcast clients something they'd never had — the ability to see exactly where their ads were running, in real time, on a map. That live visibility changed how we sold and how clients measured success.",
+    "role": "Head of Design — First Design Hire",
     "methods": [
       "Platform UI/UX",
+      "Design System Architecture",
       "White-Label Systems",
       "Data Visualization",
       "Interactive Mapping",
       "Sales Enablement",
-      "User Testing",
-      "Marketing Design"
+      "User Testing"
     ]
   }
 ]
