@@ -30,20 +30,11 @@ export default function Contact() {
               EMAIL
             </p>
             <a
-              href="mailto:tim@thdesign.co"
+              href="mailto:thoste789@gmail.com"
               className="text-lg font-medium text-[#1a1c1c] hover:text-[#b02f00] transition-colors"
             >
-              tim@thdesign.co
+              thoste789@gmail.com
             </a>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <p className="text-[10px] text-[#999999] tracking-[0.2em] uppercase font-bold">
-              AVAILABILITY
-            </p>
-            <p className="text-lg font-medium text-[#1a1c1c]">
-              Available for new projects
-            </p>
           </div>
 
           <div className="flex flex-col gap-2">
@@ -60,7 +51,7 @@ export default function Contact() {
               SOCIAL
             </p>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/timothy-hoste-069651104/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-[#b02f00] hover:opacity-70 transition-opacity"
@@ -68,19 +59,17 @@ export default function Contact() {
               LinkedIn ↗
             </a>
             <a
-              href="https://read.cv"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/about"
               className="text-sm font-semibold text-[#b02f00] hover:opacity-70 transition-opacity"
             >
-              Read.cv ↗
+              Resume ↗
             </a>
           </div>
         </div>
 
         {/* Contact Form */}
         <form
-          action="mailto:tim@thdesign.co"
+          action="mailto:thoste789@gmail.com"
           method="POST"
           encType="text/plain"
           className="flex flex-col gap-6 flex-1"

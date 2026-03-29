@@ -38,8 +38,8 @@ export default function Footer() {
             <span className="text-[10px] text-[#999999] tracking-[0.3em] uppercase">
               SOCIAL
             </span>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">LinkedIn</a>
-            <a href="https://read.cv" target="_blank" rel="noopener noreferrer" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">Read.cv</a>
+            <a href="https://www.linkedin.com/in/timothy-hoste-069651104/" target="_blank" rel="noopener noreferrer" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">LinkedIn</a>
+            <a href="/about" className="text-sm text-white leading-[1.8] hover:text-[#999999] transition-colors">Resume</a>
           </div>
         </div>
       </div>
