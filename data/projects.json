@@ -1,0 +1,298 @@
+[
+  {
+    "id": "vydia",
+    "title": "Vydia",
+    "subtitle": "Music Technology Platform",
+    "category": "SAAS",
+    "year": "2026",
+    "description": "Vydia began as a specialized video distribution platform. As the company expanded, it pivoted to become a comprehensive music technology platform — merging two distinct content types into a unified, intuitive experience.",
+    "image": "/mockups/vyd-dash.webp",
+    "tags": ["SaaS", "Product Design", "UX Architecture"],
+    "link": "#",
+    "color": "#ff5722",
+    "hero": "https://images.unsplash.com/photo-1514525253361-b83f859b71c0?auto=format&fit=crop&q=80&w=1200",
+    "heroImage": "https://images.unsplash.com/photo-1514525253361-b83f859b71c0?auto=format&fit=crop&q=80&w=1200",
+    "problem": "This platform change introduced significant complexity: merging two distinct content types (video and audio) into a unified, intuitive user experience while preserving seamless workflows for creators who handle both formats. Metadata management, release scheduling, rights handling, analytics, and delivery pipelines had to scale across vastly different partner requirements and user expectations.",
+    "process": "As Lead Product Designer, I kicked off the project by leading in-depth stakeholder interviews with our internal video and audio distribution teams. We mapped their key pain points with existing third-party audio platforms, uncovering recurring frustrations around metadata handling, workflow inefficiencies, and limited insights.\n\nI then directed a thorough competitive audit of top players in the audio distribution space, dissecting interaction patterns, user flows, onboarding sequences, and data visualization approaches to identify best-in-class elements and opportunities for differentiation.\n\nBuilding on these insights, we ran collaborative workshops asking a core question: \"How can we make your daily work dramatically easier?\" The result: a more intuitive, powerful audio distribution experience built specifically for our creators and our teams.",
+    "solution": "The design process followed a four-phase approach, iterating rapidly between research insights and design execution. Each phase built upon validated learnings from the previous stage.",
+    "results": "The redesigned Vydia dashboard launched with strong positive reception from internal teams, creators, and label partners. The overhaul transformed a fragmented experience into a seamless, unified platform for audio and video distribution—driving higher user satisfaction, faster workflows, and measurable business gains in operational efficiency, content quality, and partner ecosystem performance.",
+    "reflections": "The project reinforced the importance of involving end-users early and continuously. The biggest wins came from simplifying complex workflows rather than adding new features.",
+    "leadership": "Led a team of 3 designers through the full design process, from research to final handoff.",
+    "challenges": [
+      "ENTERING NEW VERTICAL OF MUSIC",
+      "NEW INFORMATIONAL ARCHITECTURE",
+      "B2B & B2C ABILITY",
+      "LARGE DATA SETS"
+    ],
+    "researchStats": [
+      { "num": "100+", "label": "different pieces of metadata per release" },
+      {
+        "num": "4.2min",
+        "label": "average time to complete a basic upload review"
+      },
+      {
+        "num": "89%",
+        "label": "of users requested a simplified data visualization approach"
+      }
+    ],
+    "phases": [
+      {
+        "num": "01",
+        "title": "Discovery\n& Audit",
+        "desc": "Conducted a comprehensive heuristic evaluation of the existing Vydia dashboard. Mapped 14 critical creator and label workflows, identifying 23 key usability friction points that slowed content delivery and increased errors."
+      },
+      {
+        "num": "02",
+        "title": "Information\nArchitecture",
+        "desc": "Restructured the entire navigation model from a flat, cluttered hierarchy to a contextual, task-based architecture aligned with real creator workflows."
+      },
+      {
+        "num": "03",
+        "title": "Visual\nDesign",
+        "desc": "Developed a refined design system with over 120 components tailored to Vydia's media-centric dashboard. Built a modular, atomic-inspired system enabling flexible customization and white-labeling for partner labels."
+      },
+      {
+        "num": "04",
+        "title": "Testing\n& Iteration",
+        "desc": "Conducted continual usability testing with internal teams, creators, and editors throughout the process. Achieved a 95% task-completion rate on the final prototype, with a 56% reduction in average upload time."
+      }
+    ],
+    "metrics": [
+      { "val": "62%", "label": "Decrease in the time to upload." },
+      { "val": "31%", "label": "Increase in Successful Deliveries" },
+      { "val": "65%", "label": "Reduction in development handoff" },
+      { "val": "2023", "label": "Vydia acquired by gamma." }
+    ],
+    "quote": "We are a progressive media company powered by the best-in-class content distribution and analytics software by way of our Vydia acquisition. This is why I fought so hard to buy a company like Vydia, because of the tech stack that they have that makes it almost like an enterprise software company. <br><br>- Larry Jackson, CEO gamma.",
+    "role": "Head of UI/UX Design",
+    "methods": ["Wireframing", "UI", "UX", "Prototyping", "User Testing"]
+  },
+  {
+    "id": "fantasy-kooks",
+    "title": "Fantasy Kooks",
+    "subtitle": "Fantasy Surfing Platform",
+    "category": "Consumer Web / Fantasy Sports",
+    "year": "2026",
+    "description": "Fantasy Kooks is an engaging fantasy surfing platform that lets users compete in real-world WSL-inspired events. Users build teams within a budget to earn points from surfer heat scores, create custom single-event or full-season competitions, and play in bracket mode by predicting heat winners for escalating points and bragging rights.",
+    "image": "/mockups/kooks.webp",
+    "tags": [
+      "Fantasy Sports",
+      "UI/UX Design",
+      "Interactive Web App",
+      "Community Features"
+    ],
+    "link": "https://kooks.vercel.app",
+    "hero": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1200",
+    "heroImage": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1200",
+    "problem": "Traditional fantasy surfing games often feel rigid and limited to official tours, leaving fans wanting more control, creativity, and social competition—whether for a single heat, full season, or bracket-style predictions without complex salary caps.",
+    "process": "As Lead UI/UX Designer for Fantasy Kooks (live at kooks.vercel.app), I started with targeted research among surf fans, WSL viewers, and fantasy sports players. Interviews and surveys revealed frustrations with rigid official-tour formats, steep learning curves from complex salary caps, and limited social/custom options in existing platforms. These insights shaped the vision: a flexible, fun system where users could build budget-constrained teams for traditional scoring or predict brackets for quick wins—plus full control to create their own single-event or season-long competitions.<br><br>I then defined the information architecture and core flows, prioritizing intuitive drafting (with budget sliders and surfer previews), seamless event setup (drag-and-drop scheduling, invites, and rules), and an engaging bracket mode where correct heat predictions earn escalating points. Mobile-first considerations were central, ensuring live event tracking felt natural on phones during beach days or travel. <br><br>Rapid prototyping and iterative testing followed, with multiple rounds of usability sessions involving 15+ participants simulating real competitions. Feedback refined interactions—like clearer budget feedback, faster bracket navigation, and visual scoring cues—resulting in smoother onboarding, higher confidence in custom events, and a vibrant, wave-inspired design system that brings the energy of surfing to every leaderboard and heat update. Each step built on validated user input to deliver a distinctly community-driven experience.",
+    "solution": "The platform delivers an intuitive, customizable experience with seamless budget-based drafting, drag-and-drop event setup for single heats or multi-event seasons, and an addictive bracket mode where accurate predictions multiply points and unlock leaderboards.",
+    "results": "Users embraced the flexibility, with quick onboarding, high engagement during live events, and positive feedback on the social, creator-driven competitions that go beyond standard fantasy formats.",
+    "reflections": "Simplifying complex fantasy mechanics while preserving excitement taught me the power of user empowerment in niche communities—custom events became the standout feature.",
+    "leadership": "Sole designer leading end-to-end from concept to high-fidelity prototypes and user testing.",
+    "challenges": [
+      "BALANCING BUDGET STRATEGY WITH ACCESSIBILITY",
+      "CUSTOM EVENT CREATION FLOW",
+      "REAL-TIME SCORING & LIVE UPDATES",
+      "MOBILE-FIRST COMPETITION TRACKING"
+    ],
+    "researchStats": [
+      {
+        "num": "85%",
+        "label": "of surveyed users wanted custom event options"
+      },
+      {
+        "num": "3x",
+        "label": "more engagement in bracket vs traditional modes"
+      },
+      { "num": "7", "label": "average surfers per fantasy team" }
+    ],
+    "phases": [
+      {
+        "num": "01",
+        "title": "Discovery\n& Research",
+        "desc": "Interviewed surf fans and analyzed existing fantasy platforms to identify pain points in rigidity, scoring transparency, and social features."
+      },
+      {
+        "num": "02",
+        "title": "Information\nArchitecture",
+        "desc": "Designed modular flows for team drafting, event creation (single/season), and bracket predictions, reducing steps for key actions."
+      },
+      {
+        "num": "03",
+        "title": "Visual\nDesign",
+        "desc": "Created a vibrant, simple design system with dynamic leaderboards, heat visualizations, and responsive components for live tracking."
+      },
+      {
+        "num": "04",
+        "title": "Testing\n& Iteration",
+        "desc": "Ran usability tests with 15+ participants during mock events, refining interactions for faster picks and clearer scoring feedback."
+      }
+    ],
+    "metrics": [
+      {
+        "val": "Under 2 min",
+        "label": "average time to create a custom event"
+      },
+      { "val": "4.8/5", "label": "user satisfaction from beta feedback" },
+      { "val": "200+", "label": "active competitors in first season trial" }
+    ],
+    "role": "Founder, Product Designer, Developer",
+    "methods": [
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "UI Design",
+      "Usability Testing",
+      "Fantasy Mechanics Design"
+    ]
+  },
+  {
+    "id": "hammer-surf-school",
+    "title": "Hammer Surf School",
+    "subtitle": "Custom Website & Booking Platform",
+    "category": "Web Design & Development",
+    "year": "2025",
+    "description": "A fully custom WordPress theme built for Hammer Surf School, the premier surf instruction experience on the New Jersey shore. The site showcases authentic lessons with Sam Hammer, streamlines class bookings across multiple beach locations, and connects seamlessly to third-party tools for a fast, mobile-first experience that drives real enrollments.",
+    "image": "/mockups/hss-mock.webp",
+    "tags": [
+      "WordPress",
+      "Custom Theme",
+      "UI/UX Design",
+      "Web Development",
+      "Performance Optimization"
+    ],
+    "link": "https://hammersurfschool.com",
+    "hero": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1200",
+    "heroImage": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1200",
+    "problem": "The previous site felt outdated and slow, with fragmented booking across multiple beach locations, no unified scheduling, and poor mobile performance during peak summer season. Users struggled to quickly find lessons, view availability, or complete sign-ups, resulting in lost enrollments for kids, teens, adults, private coaching, and special programs like surf therapy.",
+    "process": "As Lead UI/UX Designer and Developer, I started with user interviews and competitor analysis of other East Coast surf schools to identify friction in class discovery, location selection, and booking. This led to a clean information architecture focused on quick navigation between group lessons, private sessions, and Costa Rica retreats.\n\nI designed a vibrant, wave-inspired visual system with high-impact photography, then built the entire custom WordPress theme from scratch. Using Gulp for stylesheet and JavaScript compilation, I optimized every asset for lightning-fast delivery and seamless performance on mobile devices used at the beach.\n\nCustom integrations were developed to connect directly with third-party booking and scheduling software, creating a unified \"Book with Our New App\" experience that pulls real-time availability across Spring Lake, Bay Head, Lavallette, Seaside Park, and private beach clubs. Rapid prototyping and testing with real students and parents refined the flow until booking felt effortless.",
+    "solution": "The result is a modern, high-performance website that feels as energetic as the sport itself. Clean class grids, intuitive filters by age and location, real-time availability, and one-click enrollment via the integrated app make signing up simple while beautifully showcasing the authentic Hammer Surf School experience.",
+    "results": "The new site launched to immediate positive feedback and measurable growth in summer enrollments. Faster load times, simplified booking, and a mobile-first design directly contributed to higher conversion rates and smoother operations for the school.",
+    "reflections": "Building both the design and the code taught me the power of performance as part of the user experience. The biggest win was turning a fragmented booking process into a single, joyful flow that matches the fun of learning to surf.",
+    "leadership": "Sole designer and developer responsible for end-to-end concept, custom WordPress theme development, Gulp pipeline setup, and third-party integrations.",
+    "challenges": [
+      "MULTI-LOCATION SCHEDULING",
+      "PERFORMANCE OPTIMIZATION ON WORDPRESS",
+      "SEAMLESS THIRD-PARTY BOOKING INTEGRATIONS",
+      "MOBILE-FIRST EXPERIENCE FOR BEACH USERS"
+    ],
+    "researchStats": [
+      { "num": "68%", "label": "of users preferred mobile booking" },
+      { "num": "4.8s", "label": "previous average page load time" },
+      { "num": "92%", "label": "of parents wanted one-click enrollment" }
+    ],
+    "phases": [
+      {
+        "num": "01",
+        "title": "Discovery\n& Research",
+        "desc": "Interviewed surf families and analyzed competitor sites to map pain points in class discovery and booking across multiple locations."
+      },
+      {
+        "num": "02",
+        "title": "Information\nArchitecture",
+        "desc": "Created a modular structure with clear class filters, location selectors, and unified booking paths for group lessons, privates, and retreats."
+      },
+      {
+        "num": "03",
+        "title": "Visual\nDesign",
+        "desc": "Developed a custom, surf-inspired design system with dynamic photography, wave animations, and responsive components optimized for speed."
+      },
+      {
+        "num": "04",
+        "title": "Development\n& Integration",
+        "desc": "Built the full WordPress theme with Gulp compilation for ultra-fast styles and scripts, plus custom API connections to third-party booking software."
+      }
+    ],
+    "metrics": [
+      { "val": "Under 1s", "label": "average page load time" },
+      { "val": "3x", "label": "faster booking completion" },
+      { "val": "45%", "label": "increase in summer inquiries" },
+      { "val": "2025", "label": "Site launched with new booking app" }
+    ],
+    "quote": "The new website captures exactly who we are — authentic, fun, and easy to join. Parents and students love how simple it is to book and see real-time availability.",
+    "role": "Lead UI/UX Designer & Front-End Developer",
+    "methods": [
+      "User Research",
+      "Wireframing",
+      "UI Design",
+      "WordPress Theme Development",
+      "Gulp Build Process",
+      "Third-Party Integrations",
+      "Usability Testing"
+    ]
+  },
+  {
+    "id": "yashi",
+    "title": "Yashi",
+    "subtitle": "Location-Based AdTech Platform",
+    "category": "AdTech / SaaS",
+    "year": "2024",
+    "description": "Yashi was a white-label AdTech platform specializing in location-focused video pre-roll advertising. Acquired by Nexstar Broadcasting in 2015, it empowered local broadcasters, agencies, and advertisers to create custom ad campaigns, manage budgets in real time, and visualize exactly where their pre-roll ads were being viewed across the country via an interactive live map.",
+    "image": "/mockups/yashi-mock.webp",
+    "tags": [
+      "AdTech",
+      "SaaS",
+      "Data Visualization",
+      "White-Label Platform",
+      "UI/UX Design"
+    ],
+    "link": "#",
+    "hero": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
+    "heroImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
+    "problem": "Local broadcasters and agencies needed a simple yet powerful way to run hyper-local video pre-roll campaigns, but existing tools lacked real-time location insights, flexible white-label branding, and intuitive budget tracking. Campaign setup was slow, performance data was scattered, and there was no visual way to see exactly where ads were delivering impressions in real time.",
+    "process": "As Head of Design at Yashi, I owned the entire platform experience from initial research to launch and ongoing market support. I began by leading stakeholder interviews with broadcasters, sales teams, and advertisers to map pain points in campaign creation, budget allocation, and performance reporting.\n\nI then architected a clean, modular interface that supported full white-labeling while keeping core flows consistent. The biggest innovation was designing an interactive live map that plotted pre-roll impressions in real time, paired with intuitive budget builders and spending trackers.\n\nThroughout the project I also created sales enablement materials, pitch decks, and marketing assets to support the sales team. Rapid prototyping and continuous testing with real clients refined every interaction until the platform felt powerful yet effortless.",
+    "solution": "The final white-label platform delivered a unified dashboard where users could instantly build location-targeted pre-roll campaigns, set budgets, and watch live on an interactive U.S. map as impressions rolled in. Clean data visualizations, real-time spending controls, and seamless white-label customization gave every client their own branded experience without sacrificing power or speed.",
+    "results": "The redesign and new features drove significantly higher platform adoption. Post-launch, Yashi was acquired by Nexstar Broadcasting, with the platform becoming a core part of their local advertising stack. Clients reported faster campaign setup, clearer performance insights, and stronger ROI tracking thanks to the live geographic view.",
+    "reflections": "Leading both product design and sales/marketing support taught me how closely UI/UX must align with business realities. The live map became the standout feature because it turned abstract data into something visceral and actionable for local advertisers.",
+    "leadership": "Head of Design – owned end-to-end platform UI/UX, white-label system, live map visualization, and all sales & marketing design support.",
+    "challenges": [
+      "WHITE-LABEL CUSTOMIZATION AT SCALE",
+      "REAL-TIME GEOGRAPHIC DATA VISUALIZATION",
+      "COMPLEX BUDGET & SPEND TRACKING",
+      "SALES & MARKET ENABLEMENT"
+    ],
+    "researchStats": [
+      { "num": "42%", "label": "reduction in campaign setup time" },
+      { "num": "3.2x", "label": "average increase in daily platform usage" }
+    ],
+    "phases": [
+      {
+        "num": "01",
+        "title": "Discovery\n& Research",
+        "desc": "Conducted in-depth interviews with broadcasters and advertisers to identify gaps in location targeting and performance visibility."
+      },
+      {
+        "num": "02",
+        "title": "Information\nArchitecture",
+        "desc": "Designed modular white-label flows for campaign creation, budget management, and real-time reporting across desktop and mobile."
+      },
+      {
+        "num": "03",
+        "title": "Visual\nDesign",
+        "desc": "Created a flexible design system with an interactive U.S. map for live pre-roll impressions, dynamic charts, and full white-label theming."
+      },
+      {
+        "num": "04",
+        "title": "Testing\n& Enablement",
+        "desc": "Ran iterative usability tests with clients while building sales decks and marketing assets to support go-to-market efforts."
+      }
+    ],
+    "metrics": [
+      { "val": "42%", "label": "Faster campaign setup time" },
+      { "val": "3.2x", "label": "Increase in daily active usage" },
+      { "val": "95%", "label": "Client satisfaction with live map feature" },
+      { "val": "2015", "label": "Acquired by Nexstar Broadcasting" }
+    ],
+    "role": "Head of Design",
+    "methods": [
+      "Platform UI/UX",
+      "White-Label Systems",
+      "Data Visualization",
+      "Interactive Mapping",
+      "Sales Enablement",
+      "User Testing",
+      "Marketing Design"
+    ]
+  }
+]
