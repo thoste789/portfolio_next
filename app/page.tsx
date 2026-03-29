@@ -64,7 +64,7 @@ export default function Home() {
       {/* Hero */}
       <section className="pt-20">
         <div className="px-6 md:px-20 pt-30 pb-30">
-          <h1 className="font-mono text-6xl md:text-8xl font-extralight leading-[0.95] text-[#1a1c1c] mb-8 tracking-tight">
+          <h1 className="font-mono text-5xl md:text-6xl lg:text-8xl font-extralight leading-none text-[#1a1c1c] mb-8 tracking-tight">
             Head 
             <br />
             of UI/UX Design
@@ -75,13 +75,13 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <Link
               href="/work"
-              className="bg-[#1a1c1c] text-white text-[13px] font-bold px-8 py-4 hover:bg-[#333333] transition-colors tracking-[0.1em]"
+              className="bg-[#1a1c1c] text-white text-sm font-bold px-8 py-4 hover:bg-[#333333] transition-colors tracking-widest"
             >
               VIEW WORK
             </Link>
             <Link
               href="/about"
-              className="border border-[#1a1c1c] text-[#1a1c1c] text-[13px] font-bold px-8 py-4 hover:bg-[#1a1c1c] hover:text-white transition-colors tracking-[0.1em]"
+              className="border border-[#1a1c1c] text-[#1a1c1c] text-sm font-bold px-8 py-4 hover:bg-[#1a1c1c] hover:text-white transition-colors tracking-widest"
             >
               ABOUT ME
             </Link>
@@ -94,10 +94,10 @@ export default function Home() {
         <div className="grid grid-cols-2 md:flex w-full flex-col md:flex-row gap-6 justify-between">
           {stats.map((s) => (
             <div key={s.label} className="flex flex-col items-center gap-2 flex-1">
-              <span className="font-mono text-[42px] font-extralight text-white leading-none">
+              <span className="font-mono text-4xl md:text-5xl font-extralight text-white leading-none">
                 {s.num}
               </span>
-              <span className="text-[10px] text-center text-white tracking-[0.2em] uppercase">
+              <span className="text-xs text-center text-white tracking-wider uppercase">
                 {s.label}
               </span>
             </div>
@@ -108,12 +108,12 @@ export default function Home() {
       {/* Selected Work */}
       <section className="px-6 md:px-20 py-20">
         <div className="flex items-center justify-between mb-12">
-          <span className="text-[10px] text-[#666666] tracking-[0.3em] uppercase">
+          <span className="text-xs text-[#666666] tracking-widest uppercase">
             SELECTED WORK
           </span>
           <Link
             href="/work"
-            className="text-[13px] text-[#1a1c1c] hover:opacity-50 transition-opacity tracking-[0.1em]"
+            className="text-sm text-[#1a1c1c] hover:opacity-50 transition-opacity tracking-widest"
           >
             VIEW ALL
           </Link>
@@ -125,19 +125,19 @@ export default function Home() {
             <Link
               key={p.id}
               href={`/work/${p.id}`}
-              className="flex-1 h-105 flex flex-col justify-end p-12 group transition-opacity hover:opacity-90"
+              className="min-h-[420px] md:h-105 flex flex-col justify-end p-8 md:p-12 group transition-opacity hover:opacity-90"
               style={{ backgroundColor: p.color || "#1a1c1c" }}
             >
-              <span className="text-[10px] text-white tracking-[0.3em] uppercase mb-4 opacity-70">
+              <span className="text-xs text-white tracking-widest uppercase mb-4 opacity-70">
                 {p.category || p.tags[0]?.toUpperCase()}
               </span>
-              <h3 className="font-mono text-[32px] font-extralight text-white leading-none mb-4">
+              <h3 className="font-mono text-2xl md:text-3xl font-extralight text-white leading-none mb-4">
                 {p.title.toUpperCase()}
               </h3>
               <p className="text-sm text-white leading-relaxed max-w-120 mb-4 opacity-80">
                 {p.description}
               </p>
-              <span className="text-[13px] text-white font-bold tracking-[0.1em]">
+              <span className="text-sm text-white font-bold tracking-widest">
                 VIEW CASE STUDY ↗
               </span>
             </Link>
@@ -151,10 +151,10 @@ export default function Home() {
       <section className="px-6 md:px-20 py-20 border-t border-[#e0e0e0]">
         <div className="flex flex-col items-start md:flex-row justify-between items-end mb-12">
           <div className="flex flex-col gap-4">
-            <span className="text-[10px] text-[#666666] tracking-[0.3em] uppercase">
+            <span className="text-xs text-[#666666] tracking-widest uppercase">
               SERVICES
             </span>
-            <h2 className="font-mono text-[42px] font-extralight text-[#1a1c1c] leading-none">
+            <h2 className="font-mono text-4xl md:text-5xl font-extralight text-[#1a1c1c] leading-none">
               What I Do
             </h2>
           </div>
@@ -186,10 +186,10 @@ export default function Home() {
       <section className="px-6 md:px-20 py-20 border-t border-[#e0e0e0]">
         <div className="flex flex-wrap justify-between items-end mb-12">
           <div className="flex flex-col gap-4">
-            <span className="text-[10px] text-[#666666] tracking-[0.3em] uppercase">
+            <span className="text-xs text-[#666666] tracking-widest uppercase">
               FAQ
             </span>
-            <h2 className="font-mono text-[42px] font-extralight text-[#1a1c1c] leading-none">
+            <h2 className="font-mono text-4xl md:text-5xl font-extralight text-[#1a1c1c] leading-none">
               Common Questions
             </h2>
           </div>

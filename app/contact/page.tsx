@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <main className="bg-[#f9f9f9] pt-20">
       {/* Page Header */}
-      <section className="pt-20 px-20 py-20">
-        <p className="text-[10px] text-[#666666] tracking-[0.3em] uppercase mb-6">
+      <section className="pt-20 px-6 md:px-20 py-12 md:py-20">
+        <p className="text-xs text-[#666666] tracking-widest uppercase mb-6">
           CONTACT
         </p>
         <PageTitle title="Let's Work Together" />
@@ -18,15 +18,15 @@ export default function Contact() {
       </section>
 
       {/* Content */}
-      <section className="px-20 pb-20 flex gap-20 items-start">
+      <section className="px-6 md:px-20 pb-12 md:pb-20 flex flex-col md:flex-row gap-12 md:gap-20 items-start">
         {/* Info Panel */}
-        <div className="flex flex-col gap-12 w-120 shrink-0">
-          <p className="text-[10px] text-[#666666] tracking-[0.3em] uppercase font-bold">
+        <div className="flex flex-col gap-12 w-full md:w-120 md:shrink-0">
+          <p className="text-xs text-[#666666] tracking-widest uppercase font-bold">
             GET IN TOUCH
           </p>
 
           <div className="flex flex-col gap-2">
-            <p className="text-[10px] text-[#999999] tracking-[0.2em] uppercase font-bold">
+            <p className="text-xs text-[#999999] tracking-wider uppercase font-bold">
               EMAIL
             </p>
             <a
@@ -38,7 +38,7 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <p className="text-[10px] text-[#999999] tracking-[0.2em] uppercase font-bold">
+            <p className="text-xs text-[#999999] tracking-wider uppercase font-bold">
               BASED IN
             </p>
             <p className="text-lg font-medium text-[#1a1c1c]">
@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col gap-3">
-            <p className="text-[10px] text-[#999999] tracking-[0.2em] uppercase font-bold">
+            <p className="text-xs text-[#999999] tracking-wider uppercase font-bold">
               SOCIAL
             </p>
             <a
@@ -80,7 +80,7 @@ export default function Contact() {
           <div className="flex flex-col gap-2">
             <label
               htmlFor="name"
-              className="text-[10px] text-[#666666] tracking-[0.2em] uppercase font-bold"
+              className="text-xs text-[#666666] tracking-wider uppercase font-bold"
             >
               NAME
             </label>
@@ -96,7 +96,7 @@ export default function Contact() {
           <div className="flex flex-col gap-2">
             <label
               htmlFor="email"
-              className="text-[10px] text-[#666666] tracking-[0.2em] uppercase font-bold"
+              className="text-xs text-[#666666] tracking-wider uppercase font-bold"
             >
               EMAIL
             </label>
@@ -112,7 +112,7 @@ export default function Contact() {
           <div className="flex flex-col gap-2">
             <label
               htmlFor="message"
-              className="text-[10px] text-[#666666] tracking-[0.2em] uppercase font-bold"
+              className="text-xs text-[#666666] tracking-wider uppercase font-bold"
             >
               MESSAGE
             </label>
@@ -127,7 +127,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="bg-[#1a1c1c] text-white text-[13px] font-bold px-8 py-4 w-fit hover:bg-[#333333] transition-colors tracking-[0.1em]"
+            className="bg-[#1a1c1c] text-white text-sm font-bold px-8 py-4 w-fit hover:bg-[#333333] transition-colors tracking-widest"
           >
             SEND MESSAGE ↗
           </button>

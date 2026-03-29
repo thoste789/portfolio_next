@@ -81,7 +81,7 @@ export default function About() {
   return (
     <main className="bg-[#f9f9f9] pt-20">
       {/* Page Header */}
-      <section className="pt-20 px-6 md:px-20 py-20">
+      <section className="pt-20 px-6 md:px-20 py-12 md:py-20">
         <p className="text-[10px] text-[#666666] tracking-[0.3em] uppercase mb-6">
           ABOUT ME
         </p>
@@ -100,7 +100,7 @@ export default function About() {
       </section>
 
       {/* Resume & Skills */}
-      <section className="px-6 md:px-20 pb-28 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
+      <section className="px-6 md:px-20 pb-16 md:pb-28 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
 
         {/* Left — Experience */}
         <div>
